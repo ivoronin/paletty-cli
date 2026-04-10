@@ -1,5 +1,5 @@
 {
-  "name": "paletty",
+  "name": "@ivoronin/paletty",
   "version": "0.1.0",
   "description": "Apply paletty.dev color themes to your terminal via OSC sequences",
   "type": "module",
