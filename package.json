@@ -1,0 +1,36 @@
+{
+  "name": "paletty",
+  "version": "0.1.0",
+  "description": "Apply paletty.dev color themes to your terminal via OSC sequences",
+  "type": "module",
+  "bin": {
+    "paletty": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "terminal",
+    "theme",
+    "colors",
+    "osc",
+    "paletty"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivoronin/paletty-cli"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8",
+    "typescript": "^5",
+    "vitest": "^3"
+  }
+}
